@@ -7,21 +7,19 @@ body{
     background-image: url('../art/fondo/ladrillo.jpg');
     background-size: cover;}
 .fondo{
-
     position: absolute;
     background: url('../art/fondo/fondi.jpg');
     background-size: cover;
-    left: 30%; top: 5% ;
+    left: 29%; top: 5% ;
     height: 850px;
     width: 400px;
 }
 
 #canvas {
-
     position: absolute;
-    top: 3%; left: 30%;
+    top: 3%; left: 29%;
     height: 850px;
-    width: 1024px;
+    width: 1000px;
 }
 
 

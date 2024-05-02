@@ -10,15 +10,15 @@ let imagenes = {}
 
 //Agregamos la imagen del jugador
 imagenes.player = new Image();
-imagenes.player.src = "../art/player/playermov2.png";
+imagenes.player.src = "JuegoJS/art/player/playermov2.png";
 
 //Agregamos la imagen de manzana
 imagenes.manzana = new Image();
-imagenes.manzana.src = "../art/manzana/apple.png";
+imagenes.manzana.src = "JuegoJS/art/manzana/apple.png";
 
 //Agregamos los corazones
 imagenes.corazones = new Image();
-imagenes.corazones.src = "../art/corazon/corazonfull.png";
+imagenes.corazones.src = "JuegoJS/art/corazon/corazonfull.png";
 
 //Definimos el ANCHO y ALTO de la imagen
 const playerAncho = 168;
@@ -47,7 +47,7 @@ let corazonFrameY = 0;
 //Definimos la posicion de player dentro del canvas
 let playerX = 100;
 let playerY = 400;
-let repreX = 700;
+let repreX = canvas.width/2;
 let repreY = 350;
 
 //Posicion de las manzanas dentro del canvas
@@ -312,6 +312,7 @@ function reset() {
   puntos = 0;
   manzanaY = 0;
   vidas = 3;
+  pararIntervalo(intervaloID);
   console.log("Reiniciado");
 }
 
