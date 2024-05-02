@@ -326,14 +326,7 @@ function pantallaPrincipal(x, y) {
     puntaje();
 
   }
-  /*
-  Agregado
-  -crear eventos de teclado
-  -crear frutas randoms con 3 posiciones
-  -crear colisiones
-  -fuente arcade +outline
-  
-  
+  /* 
   Resta por hacer:
       -Hacer que las frutas exploten si llegan al piso
       -Agregar selector de dificultades o dificultad progresiva.
